@@ -1,0 +1,5 @@
+# Ignore generated binaries
+*.bin
+
+# Ignore scripts used to build binaries
+*.cmd
