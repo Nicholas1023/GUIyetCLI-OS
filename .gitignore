@@ -1,5 +1,8 @@
 # Ignore generated binaries
 *.bin
 
+# Ignore combined assemblies used to build binaries
+main.asm
+
 # Ignore scripts used to build binaries
 *.cmd
