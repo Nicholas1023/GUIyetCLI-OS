@@ -20,6 +20,7 @@ selectmode:
     je loadcli
     cmp al, 0x32
     je loadgui
+    jmp loadcli
 
 print:
     lodsb

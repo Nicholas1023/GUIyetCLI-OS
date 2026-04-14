@@ -28,6 +28,7 @@ read:
     mov si, climsg2
     mov ah, 0x0E
     call print
+    lea di, appname
     jmp cliinput
 
 checkgui1:
