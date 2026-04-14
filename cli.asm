@@ -73,6 +73,6 @@ helpcommand:
     lea di, appname
     jmp read
 
-climsg1 db "GUIyetCLI OS Command Line Interface Version 0.0.1.", 13, 10, "Type 'gui' to launch in graphical user interface mode.", 13, 10, ">> ", 0
-climsg2 db 13, 10, ">> ", 0
+climsg1 db "GUIyetCLI OS Command Line Interface Version 0.0.1.", 13, 10, "Type 'help' to see a list of commands.", 13, 10, "user> ", 0
+climsg2 db 13, 10, "user> ", 0
 helpmsg db 13, 10, "help: Display this message.", 13, 10, "gui:  Launches the graphical user interface.", 0

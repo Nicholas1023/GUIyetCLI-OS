@@ -23,7 +23,7 @@ loadgui:
     mov ah, 0x02
     mov bh, 0
     mov dh, 24
-    mov dl, 60
+    mov dl, 59
     int 0x10
     mov si, uimsg1
     mov ah, 0x0E
@@ -76,5 +76,5 @@ clicommand:
     jmp loadcli
 
 uimsg1 db "GUIyetCLI OS v0.0.1", 0
-uimsg2 db "Enter app name to launch: ", 0
+uimsg2 db " Enter app name to launch: ", 0
 
