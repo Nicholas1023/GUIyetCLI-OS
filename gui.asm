@@ -242,6 +242,6 @@ printabout:
 uimsg1 db "GUIyetCLI OS v0.0.1", 0
 uimsg2 db " Enter app name to launch: ", 0
 filewindow db " File", 13, 10, " Your files (Read-only):", 13, 10, " about.txt", 13, 10, " os.img", 13, 10, 13, 10, " Enter filename to read (Press '&' to exit): ", 0
-abouttxt db 13, 10, 13, 10, " File contents:", 13, 10, " 1 Thank you for using GUIyetCLI OS!", 13, 10, " 2 You are currently using version 0.0.1.", 13, 10, 13, 10, " Press 'enter' to return.", 0
+abouttxt db 13, 10, 13, 10, " File contents:", 13, 10, " 1 Hello world! Thank you for using GUIyetCLI OS!", 13, 10, " 2 You are currently using version 0.0.1.", 13, 10, 13, 10, " Press 'enter' to return.", 0
 osbin db 13, 10, 13, 10, " File contents cannot be displayed (Binary content)", 13, 10, " Press 'enter' to return.", 0
 
