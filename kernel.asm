@@ -3,6 +3,7 @@
 
 section .bss
 appname resb 64
+filename resb 64
 
 section .text
 start:
