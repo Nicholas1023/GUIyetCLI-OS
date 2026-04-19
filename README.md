@@ -10,5 +10,9 @@ An operating system with 2 boot modes, a command line interface and a graphical 
 1. file: Launches the built-in file manager.
 2. cli: Launches the CLI interface (No reboot required!)
 
+## Images
+<img src="file.png">
+<img src="cli.png">
+
 ## Running in a VM (QEMU)
 The default RAM value is sufficient for this OS. No storage is needed as the default files are stored within the disk image. To run GUIyetCLI OS, use this command: `qemu-system-x86_64 -drive format=raw,file=GUIyetCLIOS-0.0.1-x86.img`.
