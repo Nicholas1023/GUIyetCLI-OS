@@ -46,8 +46,17 @@ guiappselect:
     int 0x16
     cmp ah, 0x1C
     je readapp
+    cmp ah, 0x0E
+    je backspaceapp
     cld
     stosb
+    mov ah, 0x0E
+    int 0x10
+    jmp guiappselect
+
+backspaceapp:
+    cld
+    dec di
     mov ah, 0x0E
     int 0x10
     jmp guiappselect
@@ -127,8 +136,17 @@ fileselect:
     int 0x16
     cmp ah, 0x1C
     je readfile
+    cmp ah, 0x0E
+    je backspacefile
     cld
     stosb
+    mov ah, 0x0E
+    int 0x10
+    jmp fileselect
+
+backspacefile:
+    cld
+    dec di
     mov ah, 0x0E
     int 0x10
     jmp fileselect
